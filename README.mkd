@@ -23,9 +23,9 @@ Open the global todo list
 
 The following commands are available from a todo buffer:
 
-Mark the current item as done
+Mark the current item as completed
 
-    :TodoMarkDone
+    :TodoMarkComplete
 
 Mark the current item as in progress
 

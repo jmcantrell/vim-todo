@@ -1,0 +1,43 @@
+todo.vim
+========
+
+Todo.vim is a plugin to make it easier to work with todo files.
+
+Installation
+------------
+
+Install using pathogen.
+
+Usage
+-----
+
+For all commands, the equivalent mappings are listed below and only available
+if key mappings are not enabled.
+
+To disable key mappings, put the following in your vimrc:
+
+    let g:todo_map_keys = 0
+
+The following commands are available from any buffer:
+
+Open the nearest todo list
+
+    :Todo
+    <leader>t
+
+Open the global todo list
+
+    :TodoGlobal
+    <leader>T
+
+The following commands are available from a todo buffer:
+
+Mark the current item as done
+
+    :TodoMarkDone
+    <leader>d
+
+Mark the current item as in progress
+
+    :TodoMarkProgress
+    <leader>p

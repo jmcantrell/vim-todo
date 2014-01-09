@@ -12,8 +12,8 @@ COMMANDS                                         *todo-commands*
 :TodoGlobal                                      *:TodoGlobal*
     Open the global todo file
 
-:TodoMarkDone                                    *:TodoMarkDone*
-    Mark the current line as done
+:TodoMarkComplete                                *:TodoMarkComplete*
+    Mark the current line as complete
 
 :TodoMarkProgress                                *:TodoMarkProgress*
     Mark the current line as in progress
@@ -31,10 +31,6 @@ g:todo_filename                                  *g:todo_filename*
 g:todo_global_directory                          *g:todo_global_directory*
 
     The directory that will hold the global todo file (default: ~)
-
-g:todo_map_keys                                  *g:todo_map_keys*
-
-    If set to a truthy value, key mappings will be set
 
 EXAMPLE                                          *todo-example*
 
